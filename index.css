@@ -1,0 +1,108 @@
+*{font-family: "맑은 고딕", Arial, "Times New Roman", Serif;}
+body {background-color:#99ff99;padding:30px;}
+hr {border:1px solid black; 
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:250px;
+}
+h1 {text-align:center;}
+p {text-indent:1em; margin:10px;width:1100px;}
+h2{font-weight: 900; }
+h3{display:block;
+}
+span {color:red;
+	font-size:120%;
+}
+section {margin-left:250px;}
+aside {margin-left:250px;}
+footer{text-align: right}
+
+input[type=text],[type=password]{
+	border:2px solid skyblue;
+	border-radius: 5px;
+}
+input[type=text]:hover,[type=password]:hover{
+	border:2px solid skyblue;
+	border-radius: 5px;
+	background:aliceblue; 
+}
+input[type=text]:focus,[type=email]:focus
+{
+	font-size:120%;
+}
+/*색인아래의 하이퍼링크 밑줄 지우기*/
+div a{text-decoration: none;}
+#myFavoriteVides ul
+{
+	list-style-position:inside;
+}
+#index
+{
+	position:fixed;
+	text-align: center;
+	display:block;
+	background: green;
+	padding-top: 10px;
+}
+#index h4 a
+{
+	display:block;
+	background:red;
+	margin:10px;
+	margin-bottom: 10px;
+	width:200px;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	font-size:1.3em;
+	color:black;
+}
+#index h4 a:hover {background-color:#ff6600;}
+.darkRoom
+{
+	display:block;
+	background:black;
+	width:200px;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	font-size:1.0em;
+	color:white;
+}
+.spaceEngineImg
+{
+	position:relative;
+	vertical-align: top;
+	transition:width 2s, height 2s;
+	width:128px;
+	height:72px;
+	margin:0px;
+	padding:0px;
+}
+.spaceEngineImg:hover
+{
+	width:640px;
+	height:360px;
+}
+#myFavoriteMusics{color:green;}
+.leftFloatImage{float:right;}
+
+
+/*애니메이션 정의*/
+
+@keyframes moving
+{
+	0% {top:0px; left:0px;}
+	50%{top:100px;left:800px;}
+	100%{top:0px;left:0px;}
+}
+.movingObj
+{
+	width:100px;
+	height:100px;
+	position: relative;
+	animation-name: moving;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	background: brown;
+}
