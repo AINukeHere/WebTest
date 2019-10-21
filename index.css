@@ -84,6 +84,21 @@ div a{text-decoration: none;}
 	width:640px;
 	height:360px;
 }
+.gwangTV
+{
+	position:relative;
+	vertical-align: top;
+	transition:width 2s, height 2s;
+	width:320px;
+	height:240px;
+	margin:0px;
+	padding:0px;
+}
+.gwangTV:hover
+{
+	width:640px;
+	height:360px;
+}
 #myFavoriteMusics{color:green;}
 .leftFloatImage{float:right;}
 
