@@ -1,0 +1,115 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8">
+	<title>상부 MP32</title>
+</head>
+<body style="margin:0px 0px 0px 0px;text-align:center">
+	<h1> 광안리대교 공개 CCTV 전체</h1><br>
+	<img id="jpeg_1" width="320" height="240">
+	<img id="jpeg_2" width="320" height="240">
+	<img id="jpeg_3" width="320" height="240">
+	<img id="jpeg_4" width="320" height="240">
+	<img id="jpeg_5" width="320" height="240">
+	<img id="jpeg_6" width="320" height="240">
+	<img id="jpeg_7" width="320" height="240">
+	<img id="jpeg_8" width="320" height="240">
+	<img id="jpeg_9" width="320" height="240">
+	<img id="jpeg_10" width="320" height="240">
+	<img id="jpeg_11" width="320" height="240">
+	<img id="jpeg_12" width="320" height="240">
+	<img id="jpeg_13" width="320" height="240">
+	<img id="jpeg_14" width="320" height="240">
+	<img id="jpeg_15" width="320" height="240">
+	<img id="jpeg_16" width="320" height="240">
+	<img id="jpeg_17" width="320" height="240">
+	<img id="jpeg_18" width="320" height="240">
+	<img id="jpeg_19" width="320" height="240">
+	<img id="jpeg_20" width="320" height="240">
+	<img id="jpeg_21" width="320" height="240">
+	<img id="jpeg_22" width="320" height="240">
+	<img id="jpeg_23" width="320" height="240">
+	<img id="jpeg_24" width="320" height="240">
+	<img id="jpeg_25" width="320" height="240">
+	<img id="jpeg_26" width="320" height="240">
+	<img id="jpeg_27" width="320" height="240">
+	<img id="jpeg_28" width="320" height="240">
+<script type="text/javascript">
+	// var cameras = []
+	// for(i=0;i<10;++i){
+	// 	cameras[i] = {
+	// 		addEvent: function(elem, event, func ){
+	// 			if (typeof (window.event) != 'undefined')
+	// 				{elem.attachEvent('on' + event, func);}
+	// 			else
+	// 				{elem.addEventListener(event, func, false);}
+	// 		},
+	// 		initCamera: function(jpeg, serverUrl, token, id, interval){
+	// 		this.addEvent(jpeg, 'load', function(){setTimeout(function() {camera_1.showJpegFrame(jpeg, serverUrl, token, id);}, interval);});
+	// 		this.showJpegFrame(jpeg, serverUrl, token, id);
+	// 		},
+	// 		showJpegFrame: function(jpeg, serverUrl, token, id){
+	// 			console.log(new Date().getTime());
+	// 			jpeg.src = serverUrl+"/Jpeg/"+id+"?authToken="+token;
+	// 		}
+	// 	}
+	// }
+	var camera_1 = {
+		addEvent: function(elem, event, func ){
+			if (typeof (window.event) != 'undefined')
+				{elem.attachEvent('on' + event, func);}
+			else
+				{elem.addEventListener(event, func, false);}
+		},
+		initCamera: function(jpeg, serverUrl, token, id, interval){
+		this.addEvent(jpeg, 'load', function(){setTimeout(function() {camera_1.showJpegFrame(jpeg, serverUrl, token, id);}, interval);});
+		this.showJpegFrame(jpeg, serverUrl, token, id);
+		},
+		showJpegFrame: function(jpeg, serverUrl, token, id){
+			//console.log(new Date().getTime());
+			jpeg.src = serverUrl+"/Jpeg/"+id+"?authToken="+token;
+		}
+	}
+	
+	camera_1.initCamera(jpeg_1, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 1, 40);
+	camera_1.initCamera(jpeg_2, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 2, 40);
+	camera_1.initCamera(jpeg_3, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 3, 40);
+	camera_1.initCamera(jpeg_4, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 4, 40);
+	camera_1.initCamera(jpeg_5, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 5, 40);
+	camera_1.initCamera(jpeg_6, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 6, 40);
+	camera_1.initCamera(jpeg_7, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 7, 40);
+	camera_1.initCamera(jpeg_8, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 8, 40);
+	camera_1.initCamera(jpeg_9, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 9, 40);
+	camera_1.initCamera(jpeg_10, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 10, 40);
+	camera_1.initCamera(jpeg_11, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 11, 40);
+	camera_1.initCamera(jpeg_12, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 12, 40);
+	camera_1.initCamera(jpeg_13, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 13, 40);
+	camera_1.initCamera(jpeg_14, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 14, 40);
+	camera_1.initCamera(jpeg_15, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 15, 40);
+	camera_1.initCamera(jpeg_16, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 16, 40);
+	camera_1.initCamera(jpeg_17, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 17, 40);
+	camera_1.initCamera(jpeg_18, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 18, 40);
+	camera_1.initCamera(jpeg_19, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 19, 40);
+	camera_1.initCamera(jpeg_20, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 20, 40);
+	camera_1.initCamera(jpeg_21, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 21, 40);
+	camera_1.initCamera(jpeg_22, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 22, 40);
+	camera_1.initCamera(jpeg_23, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 23, 40);
+	camera_1.initCamera(jpeg_24, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 24, 40);
+	camera_1.initCamera(jpeg_25, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 25, 40);
+	camera_1.initCamera(jpeg_26, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 26, 40);
+	camera_1.initCamera(jpeg_27, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 27, 40);
+	camera_1.initCamera(jpeg_28, "http://59.19.158.7:8100", "447e6cc4-7806-4b53-a64b-c14b55b90701", 28, 40);
+
+	function cctv_time_blank() {
+		location.href="http://cctv.bisco.or.kr/cctv/none.asp";
+	}
+
+	//setTimeout("cctv_time_blank()",300000); //1000 : 1초
+</script>
+
+</body>
+</html>
+
